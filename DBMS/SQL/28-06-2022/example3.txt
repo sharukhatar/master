@@ -1,0 +1,106 @@
+create table lms_members
+(
+member_id varchar2 (10) ,
+member_name varchar2 (30) not null,
+city varchar2(20),
+date_register date not null,
+date_expire date,
+membership_status varchar2(15) not null check(membership_status in ('permanent','temperary')),
+constraint mbr_id primary key(member_id)
+);
+
+insert into lms_members(member_id ,member_name ,city,date_register,date_expire,membership_status )
+values(1,'nancy','PUNE',to_date ('02-03-2001','dd-mm-yy'),to_date ('02-04-2001','dd-mm-yy'),'permanent');
+
+insert into lms_members(member_id ,member_name ,city,date_register,date_expire,membership_status )
+values(2,'Sharukh','PUNE',to_date ('03-03-2001','dd-mm-yy'),to_date ('03-04-2001','dd-mm-yy'),'permanent');
+
+insert into lms_members(member_id ,member_name ,city,date_register,date_expire,membership_status )
+values(3,'Abhishek','Bhilai',to_date ('02-03-2001','dd-mm-yy'),to_date ('02-04-2022','dd-mm-yy'),'temperary');
+
+select * from lms_members;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+create table lms_books_details
+(
+book_code varchar2 (10),
+book_title varchar2 (100) not null,
+category varchar2(15) not null,
+author varchar2(30) not null,
+publication varchar2(30),
+publish_date date,
+book_edition number,
+price number(8,2) not null,
+rack_num varchar2(3),
+date_arrival date,
+supplier_id varchar2(3),
+constraint book_code primary key(book_code)
+--constraint fk4 foreign key (supplier_id) references lms_suppliers_details(supplier_id)
+);
+
+alter table lms_books_details add constraint fk5 foreign key (supplier_id) references lms_suppliers_details(supplier_id);
+
+insert into lms_book_details(book_code, book_title, category, author, publication, publish_date, book_edition, price, rack_num, date_arrival,  supplier_id)
+values('a1', 'python for dummies','a','Sharukh','txt',to_date ('02-03-2022','dd-mm-yy'), 1, 256.32, 'p1',to_date ('02-04-2022','dd-mm-yy'), 's12');
+
+
+insert into lms_book_details(book_code, book_title, category, author, publication, publish_date, book_edition, price, rack_num, date_arrival,  supplier_id)
+values('a2', 'c for dummies','b','Sharukh','txt',to_date ('04-03-2022','dd-mm-yy'), 8, 356.32, 'c2',to_date ('04-04-2022','dd-mm-yy'), 's11');
+
+insert into lms_book_details(book_code, book_title, category, author, publication, publish_date, book_edition, price, rack_num, date_arrival,  supplier_id)
+values('a3', 'java for dummies','c','Sharukh','txt',to_date ('05-03-2022','dd-mm-yy'), 8, 356.32, 'j2',to_date ('05-04-2022','dd-mm-yy'), 's10');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+create table lms_suppliers_details
+(
+supplier_id varchar2(3),
+supplier_name varchar2(30) not null,
+address varchar2(50),
+contact number(10) not null,
+email varchar2(15) not null,
+constraint supplier_id primary key(supplier_id)
+);
+
+select * from lms_suppliers_details;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+create table lms_fine_details
+(
+fine_range varchar2(3) not null,
+fine_amount number(10,2) not null,
+max_days_delayed number,
+constraint fine_range primary key (fine_range)
+);
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+create table lms_book_issue
+(
+book_issue_no number ,
+member_id varchar2 (10) not null,
+book_code varchar2(10) not null,
+date_issue date not null,
+date_return date not null,
+date_returned date,
+fine_range varchar2(3),
+constraint book_issue_no primary key(book_issue_no)
+--constraint fk1 foreign key (member_id) references lms_members(member_id),
+--constraint fk2 foreign key (book_code) references lms_books_details(book_code),
+--constraint fk3 foreign key (fine_range) references lms_fine_details(fine_range)
+
+);
+alter table lms_book_issue add constraint fk6 foreign key (member_id) references lms_suppliers_details(member_id);
+alter table lms_book_issue add constraint fk7 foreign key (book_code) references lms_books_details(book_code);
+alter table lms_book_issue add constraint fk8 foreign key (fine_range) references lms_fine_details(fine_range);
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+drop table lms_members ;
+drop table lms_suppliers_details;
+drop table lms_books_details ;
+drop table lms_fine_details ;
+drop table lms_book_issue;
+

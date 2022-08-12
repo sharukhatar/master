@@ -1,0 +1,29 @@
+select * from user_tab_columns; 
+create table institutions
+(
+c_id number,
+c_name varchar2(100),
+c_city varchar2(100),
+c_phone number
+);
+
+insert into institutions (c_id, c_name, c_city, c_phone)
+values(1,'Cdac','PUNE',11111111);
+
+
+insert into institutions (c_id, c_name, c_city, c_phone)
+values(2,'MIT','banglore',2222222);
+
+
+insert into institutions (c_id, c_name, c_city, c_phone)
+values(3,'COEP','chennai',3333333);
+
+
+insert into institutions (c_id, c_name, c_city, c_phone)
+values(4,'MESCOE','pune',4444444);
+
+select *from institutions;
+----------------------------------------------------------------------------
+
+select * from institutions where upper(c_city) = upper('PUNE') ---making case insensitive
+

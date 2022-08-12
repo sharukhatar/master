@@ -1,0 +1,22 @@
+create table books
+(
+book_ISBN  number primary key,
+book_title varchar2(100) not null,
+-- book_category varchar2(100) not null check (book_category = 'c'or book_category ='java'),
+book_category varchar2(100) check(book_category in ('c','java','python')),
+Edition number not null,
+book_barcode_number number unique
+);
+
+insert into books values (1, 'let us c', 'c', 10, 125142);
+insert into books values (2, 'let us java', 'java', 10, 125143);
+insert into books values (3, 'dummies', 'b', 11, 125142);
+insert into books values (4, 'python', 'c', 12, 125144);
+insert into books values (4, 'jabba', 'java', 12, 125145);
+insert into books values (5, 'easy_python', 'python', 14, 125146);
+
+
+select *from books;
+drop table books;
+
+

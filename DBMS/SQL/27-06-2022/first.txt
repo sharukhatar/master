@@ -1,0 +1,24 @@
+select * from user_tab_columns; 
+
+Create table my_second_table
+(
+Reg_no number,
+Name varchar2(100),
+doe date,
+City varchar2(100)
+
+);
+alter table my_second_table rename column DOB to doe;
+alter table my_second_table add (Event_name varchar2(100));
+alter table my_second_table modify(name varchar2(200));
+alter table my_second_table add (Event_owner varchar2(100));
+alter table my_second_table drop (Event_owner);
+reg_no from number to varchar2(100);
+
+RENAME my_second_table to My_new_second_table;
+---------------------------------------------------------------------
+
+
+insert into my_new_second_table (REG_NO, NAME, DOE, CITY, EVENT_NAME)
+values(1,'gaurav',to_date('01-jan-2001','dd-mon-yyyy'),'PUNE','coding');
+select * from my_new_second_table;

@@ -1,0 +1,17 @@
+create table seta(col1 number);
+create table setb(col1 number);
+
+insert into seta values (1);
+insert into seta values (2);
+insert into seta values (3);
+insert into seta values (4);
+insert into seta values (5);
+
+insert into setb values (3);
+insert into setb values (4);
+insert into setb values (5);
+insert into setb values (6);
+insert into setb values (7);
+
+select * from seta;
+select * from setb;

@@ -1,0 +1,31 @@
+select * from user_tab_columns; 
+create table members
+(
+member_no number,
+member_name varchar2(100),
+member_city varchar2(100),
+membership_status varchar2(100)
+
+);
+
+insert into members (member_no,member_name,member_city,membership_status)
+values(1,'Sharukh','Pune','permanenet');
+
+insert into members (member_no,member_name,member_city,membership_status)
+values(2,'Tushar','mumbai','permanenet');
+
+insert into members (member_no,member_name,member_city,membership_status)
+values(3,'Nimesh','chennai','Temporary');
+
+insert into members (member_no,member_name,member_city,membership_status)
+values(4,'kochin','chennai','Temporary');
+
+select * from members;
+
+select * from members where upper(member_city) = upper('PUNE') ---making case insensitive
+select * from members where upper(membership_status)=upper('temporary')
+
+select * from members where member_name like '%a%' or member_name like '%A%';
+
+
+

@@ -1,0 +1,202 @@
+
+select * from LMS_SUPPLIERS_DETAILS where  address =  upper('chennai') or address = upper('delhi');
+
+
+
+
+
+select trunc(sysdate) , sysdate from dual;
+select 
+member_name "registerd member name",
+city,
+date_expire,
+sysdate,
+trunc(sysdate) trncated_sysdate,
+date_register "date_register ",
+round((sysdate-"date_register" ))first_way,
+trunc(sysdate)-date_register second_way
+from lms_members;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+select city ,initcap(CITY), decode(initcap(CITY),'Pune','Hurry', 'Chennai','Thalaiva','OMG')new_derived_list
+from lms_members;
+
+select book_title, extract (year from publish_date) publish_year ,PUBLICATION,category,
+decode(category,'JAVA','OBJ','C','PP')type_of_language
+from  LMS_BOOK_DETAILS ;
+where extract(year from publish_date)>=2005 or trim(publication)!= 'Tata Mcgraw Hill';
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+select * from LMS_SUPPLIERS_DETAILS 
+
+
+select supplier_id, supplier_name, email,address
+from LMS_SUPPLIERS_DETAILS 
+where initcap(address) in ('Mumbai','Delhi') and email not like '%gmail.com';
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+select *from LMS_BOOK_DETAILS  
+
+select BOOK_TITLE, PUBLISH_DATE,PRICE
+
+from LMS_BOOK_DETAILS 
+
+where price >100 and extract (year from publish_date)>2012;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+select *from LMS_MEMBERS
+
+select MEMBER_NAME,DATE_REGISTER,MEMBERSHIP_STATUS
+from LMS_MEMBERS
+where (MEMBERSHIP_STATUS) = 'Permanent' and 
+(extract(month from DATE_REGISTER ) in (6,7,8));
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    
+select *from LMS_BOOK_ISSUE  
+
+select MEMBER_ID, DATE_ISSUE, DATE_RETURNED, DATE_RETURNED-DATE_ISSUE days
+
+from LMS_BOOK_ISSUE
+
+where DATE_RETURNED - DATE_ISSUE < 25 ;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+select distinct member_name,membership_status
+from lms_members inner join lms_book_issue on 
+(lms_members.member_id = lms_book_issue.member_id)
+inner join lms_fine_details on(lms_book_issue.fine_range = lms_fine_details.fine_range)
+where lms_fine_details.fine_amount >74;
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+select distinct member_name, membership_status, email
+
+from lms_members lm inner join lms_book_issue bi on (lm.member_id=bi.member_id)inner join lms_fine_details fd on(bi.fine_range=fd.fine_range)inner join lms_book_details bd on 
+(bi.book_code=bd.book_code)inner join lms_suppliers_details sd on (sd.supplier_id=bd.supplier_id)
+where  email like '%gmail.com' and fine_amount>74;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+select supplier_name, address 
+from lms_suppliers_details sd left join lms_book_details bd on(bd.supplier_id= sd.supplier_id)
+where bd.supplier_id is null and address in ('PUNE','MUMBAI','DELHI');
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+select  category , count(*) cnt_of_suppliers
+from lms_suppliers_details
+where rackk_num in ('A1','A2','A3')
+group by category;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/* no of books issued in the month of  APRIL and MAY */
+
+select decode(extract(month from date_issue),4,'APRIL',5,'MAY')month_, count(*) cnt_of_books
+
+from lms_book_issue
+where extract(month from date_issue)in(4,5)
+group by extract(month from date_issue);
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+/* count of numbers agains their status and city*/
+
+select membership_status,city ,count(*) cnt_against_status
+from LMS_MEMBERS 
+group by city,membership_status;
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+/* count of suppliers against their respective category of email account
+
+category    cnt
+gmail       6
+yahoo       2
+*/
+
+
+select substr(email,-9) em_category, count(*) cnt_email
+from LMS_SUPPLIERS_DETAILS
+where email like ('%gmail.com')or email like ('%yahoo.com')
+group by substr(email,-9);
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/* count of suppliers against their respective category of email account
+category    cnt
+gmail       6
+yahoo       2
+others      4
+
+*/
+
+
+select decode(substr(email,instr(email,'@')),'@gmail.com','gmail','@yahoo.com','yahoo','others') em_category, count(*) cnt_email
+from LMS_SUPPLIERS_DETAILS
+group by decode(substr(email,instr(email,'@')),'@gmail.com','gmail','@yahoo.com','yahoo','others');
+
+-------------------------------------------------------------------------------------------------
+/* category of book , total number of books under that category such that the category has more than two books*/
+
+select category, count(*)
+from LMS_BOOK_DETAILS  
+group by category
+having count(*)>2;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+/* book_code and name of the book which has been issued atleast twice */
+
+select bd.book_title,bi.book_code, count(*)
+from LMS_BOOK_ISSUE bi inner join LMS_BOOK_DETAILS bd on (bi.book_code=bd.book_code) 
+group by bi.book_code,bd.book_title
+having count(*)>=2;
+------------------------------------------------------------------------------------------------------------------------------------------------------
+/* book_code and name of the book which has issued more than 4 times and has more than 0 suppliers
+(note : java how to program has 2 book codes because of different published date)*/
+
+
+select bd.book_title,bi.book_code,bd.supplier_id ,count(*)
+from LMS_BOOK_ISSUE bi inner join LMS_BOOK_DETAILS bd on (bi.book_code=bd.book_code) 
+where bd.supplier_id is not null
+group by bi.book_code,bd.book_title,bd.supplier_id
+having count(*)>=4;
+ 
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+ select * from lms_book_details order by supplier_id desc nulls last;
+ 
+ /* list the book_name and issuance_date, date_of_expected_return such thst the books that are to be returned at the earliest are seen at the top
+ */
+ 
+ 
+ select bd.book_title , bi.date_issue , bi.date_return
+ 
+ from LMS_BOOK_ISSUE bi inner join LMS_BOOK_DETAILS bd on(bi.book_code=bd.book_code) 
+ 
+ order by  bi.date_issue,bi.date_return asc nulls last;
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------
+ /*
+ list all the members based on their date of enrollment ASC/ the oldest members of my lms appears at the top
+ */
+ 
+ select member_name , date_register
+ from lms_members 
+ order by date_register asc;
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------
+ /* list all the members such that the longest duration od membership member appers at the top */
+ 
+ select member_name , (date_expire-date_register) 
+ from lms_members
+ order by  (date_expire-date_register)  desc;

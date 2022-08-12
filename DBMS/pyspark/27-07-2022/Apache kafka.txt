@@ -1,0 +1,24 @@
+Apache kafka - is a distributed data store optimized for ingesting and processing streaming data in real-time
+it provides three main functions-
+	.Publish and subscribe to streams of records
+	.effectively store streams of records in the order in which records were generated
+	.Process streams of records in real time
+	
+Kafa id an engine which allows Asynchronous processing
+
+synchronous - Immediate 
+asynchronous -delayed
+
+Kafka integartes with almost any technology
+
+Kafka is primerily used to build real time streaming data pipelines and applications that adapt streams.
+it allows analysis of both historical and real time data.
+it is also used message broker solution
+                                                                                                                         
+link for linux installation guide for kafka-
+https://tecadmin.net/how-to-install-apache-kafka-on-ubuntu-20-04/
+
+link for data sets-
+https://www.kaggle.com/datasets/saurabh00007/iriscsv
+ 
+  

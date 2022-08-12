@@ -1,0 +1,32 @@
+create table test  
+(
+name varchar2(10) primary key
+);
+
+insert into test values ('sharukh');
+insert into test values ('sharukh');
+insert into test values (NULL);
+
+
+create table test_unique 
+(
+name varchar2(10) unique
+city varchar2(10) unique
+);
+insert into  test_unique values ('Nimesh','surat');
+insert into  test_unique values ('sharukh','pune');
+insert into  test_unique values ('sharukh','nashik');
+insert into  test_unique values ('Abhishek','nashik');
+insert into  test_unique values (NULL);
+
+
+create table test_age
+(
+age number not null check (age>18)
+);
+insert into  test_age values (19);
+insert into  test_age values (17);
+insert into  test_age values (20);
+insert into  test_age values (NULL);
+
+

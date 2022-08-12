@@ -1,0 +1,50 @@
+select * from user_tab_columns; 
+
+Create table my_second_table
+(
+Reg_no number,
+Name varchar2(100),
+doe date,
+City varchar2(100)
+
+);
+alter table my_second_table rename column DOB to doe;
+alter table my_second_table add (Event_name varchar2(100));
+alter table my_second_table modify(name varchar2(200));
+alter table my_second_table add (Event_owner varchar2(100));
+alter table my_second_table drop (Event_owner);
+reg_no from number to varchar2(100);
+
+RENAME my_second_table to My_new_second_table;
+---------------------------------------------------------------------
+delete from my_new_second_table
+
+insert into my_new_second_table (REG_NO, NAME, DOE, CITY, EVENT_NAME)
+values(1,'gaurav',to_date('01-jan-2001','dd-mon-yyyy'),'PUNE','coding');
+savepoint after_insert_1;
+
+insert into my_new_second_table (REG_NO, NAME, DOE, CITY, EVENT_NAME)
+values(2,'Sharukh',to_date('01-march-2001','dd-mon-yyyy'),'PUNE','coding');
+savepoint after_insert_2;
+
+
+insert into my_new_second_table (REG_NO, NAME, DOE, CITY, EVENT_NAME)
+values(3,'Nimesh',to_date('01-march-2001','dd-mon-yyyy'),'banglore','coding');
+savepoint after_insert_3;
+
+
+insert into my_new_second_table (REG_NO, NAME, DOE, CITY, EVENT_NAME)
+values(4,'Abhishek',to_date('01-june-2001','dd-mon-yyyy'),'banglore','coding');
+savepoint after_insert_4;
+
+rollback to after_insert_2;
+select * from my_new_second_table;
+
+
+update my_new_second_table set city = 'mumbai' where city = 'PUNE';
+
+delete from my_new_second_table where city = 'banglore';
+
+
+
+

@@ -1,0 +1,46 @@
+select * from user_tab_columns; 
+create table members
+(
+member_no number,
+member_name varchar2(100),
+member_city varchar2(100),
+membership_status varchar2(100)
+
+);
+
+insert into members (member_no,member_name,member_city,membership_status)
+values(1,'Sharukh','Pune','permanenet');
+
+insert into members (member_no,member_name,member_city,membership_status)
+values(2,'Tushar','mumbai','permanenet');
+
+insert into members (member_no,member_name,member_city,membership_status)
+values(3,'Nimesh','chennai','Temporary');
+
+insert into members (member_no,member_name,member_city,membership_status)
+values(4,'kochin','chennai','Temporary');
+
+select * from members;
+
+select * from members where upper(member_city) = upper('PUNE') ---making case insensitive
+select * from members where upper(membership_status)=upper('temporary')
+
+select * from members where member_name like '%a%' or member_name like '%A%';
+select MEMBER_NAME, MEMBER_CITY from members where member_name like '%a%';
+
+select
+MEM.MEMBER_NAME, MEMBER_CITY, 'welcome '||member_name|| ' to pune and your parent city is '||member_city welcome_message ---alias name has been given here
+from members MEM
+where member_name like '%a%';
+
+select
+members.MEMBER_NAME xyz , members.MEMBER_CITY abc , 'welcome '||member_name welcome_message ---alias name has been given here
+from members 
+where member_name like '%a%';
+
+select
+MEMBER_NAME , MEMBER_CITY  , ' Hi '||member_name ||' you have following status '||membership_status welcome_message ---alias name has been given here
+from members 
+
+
+

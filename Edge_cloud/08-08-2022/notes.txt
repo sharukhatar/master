@@ -1,0 +1,29 @@
+You can push a new image to this repository using the CLI
+creating  image 
+    >>sudo docker build -t sharukh_test_repo .
+
+
+    
+login to docker 
+    >>docker login
+taging the image with diot22 
+    >>docker tag sharukh_test_repo sharukh1/sharukh_test_repo:diot22
+
+push the image   
+    >>docker push sharukh1/sharukh_test_repo:diot22
+
+downloade the image
+    >>docker pull abhishek97sahu/diot22:diotv0
+
+run the image 
+
+    >>docker run -t abhishek97sahu/diot22:diotv0
+-----------------------------------------------------------------------------------------------
+
+Docker compose --
+
+url - https://docs.docker.com/compose/gettingstarted/
+
+
+
+

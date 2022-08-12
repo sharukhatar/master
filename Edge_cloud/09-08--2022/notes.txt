@@ -1,0 +1,5 @@
+command for running the publisher
+>>sudo docker-compose up
+
+command for running the subscriber
+>>sudo  docker-compose run subscriber

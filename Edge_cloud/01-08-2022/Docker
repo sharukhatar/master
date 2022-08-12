@@ -1,0 +1,5 @@
+Working with Docker
+1.you need to create  a Dcoler file
+2.Docker file  shoud not be with any extension
+3.Dockerfile shall be named as "Dockerfile"
+------------------------------------------------------------------------------------------------------------

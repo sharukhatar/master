@@ -1,0 +1,1000 @@
+ 1024  clear
+ 1025  node subscriber.js 
+ 1026  nvm use -lts
+ 1027  nvm use --lts
+ 1028  npm install mqtt -y
+ 1029  sudo npm install mqtt -y
+ 1030  ls
+ 1031  sudo npm install node
+ 1032  node subscriber.js 
+ 1033  make
+ 1034  make WITH_CJSON=no WITH_WEBSOCKET=yes
+ 1035  ls
+ 1036  ls
+ 1037  gedit mosquitto.conf 
+ 1038  mosquitto_passwd
+ 1039  mosquitto_passwd -c passwd_file nimesh
+ 1040  gedit all-user
+ 1041  ls
+ 1042  ls all-user 
+ 1043  ls all_user 
+ 1044  node subscriber.js
+ 1045  node subscriber.js 
+ 1046  clear
+ 1047  node subscriber.js 
+ 1048  node publisher.js 
+ 1049  node publisher.js
+ 1050  service mosquitto stop
+ 1051  cd mosquitto-2.0.14/
+ 1052  mosquitto -c mosquitto.conf 
+ 1053  ls
+ 1054  cd mosquitto-2.0.14/
+ 1055  ls
+ 1056  mosquitto -c mosquitto.conf
+ 1057  node publisher.js 
+ 1058  node subscriber.js 
+ 1059  mosquitto_passwd passwd TJ
+ 1060  mosquitto_passwd
+ 1061  make install WITH_CJSON=yes WITH_WEBSOCKETS=yes
+ 1062  sudo apt-get install libwebsockets-dev
+ 1063  ls
+ 1064  gedit ws.conf
+ 1065  ls
+ 1066  ls ws.conf 
+ 1067  mosquitto -c ws.conf
+ 1068  gedit ws.conf
+ 1069  mosquitto -c ws.conf
+ 1070  gedit ws.conf
+ 1071  mosquitto -c ws.conf
+ 1072  make install WITH_CJSON=no WITH_WEBSOCKETS=yes
+ 1073  sudo apt install libwebsockets-dev
+ 1074  cd mosquitto-2.0.14/
+ 1075  ls
+ 1076  src/mosquitto 
+ 1077  service mosquitto stop
+ 1078  service mosquitto status
+ 1079  src/mosquitto 
+ 1080  ifconfig
+ 1081  whoami
+ 1082  hostname -l
+ 1083  hostname -f
+ 1084  src/mosquitto \
+ 1085  lsof -P -i -n |grep LISTEN
+ 1086  kill -9 5708
+ 1087  mosquitto -c ws.conf 
+ 1088  nano ws.conf 
+ 1089  node thingspeak.js 
+ 1090  node thingspeak.js 
+ 1091  code .
+ 1092  python3 system_metric_subscriber.py 
+ 1093  python3 system_metric_publisher.py 
+ 1094  node thing.js 
+ 1095  node thingspeak.js 
+ 1096  node thing.js 
+ 1097  code 
+ 1098  code .
+ 1099  ssh 192.168.77.62
+ 1100  ssh diot@192.168.77.62
+ 1101  sudo service ssh status
+ 1102  ssh diot@192.168.77.121
+ 1103  ssh 192.168.77.121
+ 1104  ssh 192.168.77.62
+ 1105  python3 system_m_sub.py 
+ 1106  python3 system_m_pub.py 
+ 1107  ssh 192.168.77.121
+ 1108  python3 system_m_sub.py 
+ 1109  python3 system_m_pub.py 
+ 1110  python3 system_m_sub.py 
+ 1111  python3 system_m_pub.py 
+ 1112  node thingspeak.js 
+ 1113  xrandr
+ 1114  pyspark
+ 1115  printenv > /tmp/tmp-4167chLDH6K3TvVxtxt
+ 1116  sudo apt-get install libkrb5-dev
+ 1117  pip install virtualenv
+ 1118  sudo apt-get install libkrb5-dev
+ 1119  sudo apt-get install python-dev
+ 1120  code
+ 1121  cd /opt/spark/
+ 1122  ls
+ 1123  cd conf/
+ 1124  ls
+ 1125  mv log4j2.properties.template log4j2.properties
+ 1126  ls
+ 1127  gedit log4j2.properties 
+ 1128  clear
+ 1129  cd /opt/spark/
+ 1130  cd conf/
+ 1131  ls log4j2.properties 
+ 1132  gedit log4j2.properties 
+ 1133  cp log4j2.properties ~/Desktop/
+ 1134  cd ~
+ 1135  cd Desktop/
+ 1136  ls
+ 1137  spark-submit first_rdd.py
+ 1138  spark-submit first_data_frame.py 
+ 1139  spark-submit first_data_frame.py
+ 1140  spark-submit first_data_frame.py 
+ 1141  /usr/bin/python3.9
+ 1142  spark-submit first_data_frame.py
+ 1143  /usr/bin/python3.9
+ 1144  spark-submit parRDD.py 
+ 1145  spark-submit pair_RDD1.py 
+ 1146  spark-submit pair1_RDD.py 
+ 1147  spark-submit pair2_RDD.py 
+ 1148  spark-submit pair3_RDD.py 
+ 1149  spark-submit pair2_RDD.py 
+ 1150  node thing_speak.js 
+ 1151  ~/NodejsHTTPSServer
+ 1152  mkdir ~/NodejsHTTPSServer
+ 1153  npm init -y
+ 1154  pyspark
+ 1155  npm init -y
+ 1156  npm install express
+ 1157  touch index.js
+ 1158  node index.js 
+ 1159  openssl genrsa -out key.pem
+ 1160  openssl req -new -key key.pem -out csr.pem
+ 1161  openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
+ 1162  node  index.js
+ 1163  nvm use --lts
+ 1164  node  index.js
+ 1165  npm install jshashes
+ 1166  node  index.js
+ 1167   
+ 1168  spark-submit 1.py 
+ 1169  spark-submit 2.py 
+ 1170  spark-submit 3.py 
+ 1171  spark-submit parRDD.py 
+ 1172  spark-submit pair2_RDD.py 
+ 1173  spark-submit 1.py 
+ 1174  /usr/bin/python3.9 /home/rajesh/Sharukh/DBMS/pyspark/14-07-2022/2.py
+ 1175  sudo apt update
+ 1176  sudo apt upgrade
+ 1177  node index.js 
+ 1178  touch index.js
+ 1179  node index.js
+ 1180  touch 1.py
+ 1181  touch people.json
+ 1182  spark-submit 3.py 
+ 1183  spark-submit 4.py 
+ 1184  spark-submit 5.py 
+ 1185  spark-submit 6.py 
+ 1186  clear
+ 1187  spark-submit 6.py 
+ 1188  spark-submit 7.py 
+ 1189  spark-submit 8.py 
+ 1190  spark-submit 9.py 
+ 1191  spark-submit 10.py 
+ 1192  spark-submit 11.py 
+ 1193  /usr/bin/python3.9
+ 1194  spark-submit 1.py 
+ 1195  pip install pyspark
+ 1196  spark-submit 1.py 
+ 1197  spark-submit 1.py !
+ 1198  pip install pyspark install pyspark
+ 1199  spark-submit 2.py 
+ 1200  clear
+ 1201  code .
+ 1202  spark-submit 1.py 
+ 1203  spark-submit 1.py 
+ 1204  pip install pyspark install pyspark install pyspark
+ 1205  spark-submit 1.py 
+ 1206  pip install pyspark
+ 1207  spark-submit 1.py 
+ 1208  pip install pyspark.sql
+ 1209  sudo install pyspark.sql
+ 1210  sudo pip install pyspark.sql
+ 1211  sudo install pyspark
+ 1212  sudo pip install pyspark
+ 1213  start pyspark
+ 1214  sudo  pyspark
+ 1215  spark-submit 10.py 
+ 1216  spark-submit 10.py
+ 1217  code .
+ 1218  code .
+ 1219  sudo apt upgrade
+ 1220  sudo apt update
+ 1221  sudo apt upgrade
+ 1222  sudo apt update
+ 1223  sudo apt upgrade
+ 1224  pip3 install paho-mqtt install pyspark
+ 1225  spark-submit 1.py 
+ 1226  spark-submit 2.py 
+ 1227  ifconfig
+ 1228  ssh 192.168.77.59
+ 1229  code .
+ 1230  ssh 192.168.77.59
+ 1231  code .
+ 1232  gcc server.c -o s.out
+ 1233  gcc client.c -o c.out
+ 1234  gcc client1.c -o c.out
+ 1235  gcc client.c -o c.out
+ 1236  clear
+ 1237  ./s.out
+ 1238  ./c.out
+ 1239  code.
+ 1240  code .
+ 1241  gcc u_ser.c -o s.out
+ 1242  ./s.out 
+ 1243  gcc u_cli.c -o c.out
+ 1244  ./c.out 
+ 1245  code .
+ 1246  gcc Q1_server.c -o s.out
+ 1247  ./s.out
+ 1248  ./s.out 4000
+ 1249  gcc Q1_client.c -o c.out
+ 1250  ./c.out 
+ 1251  ./c.out 192.168.77.228 4000
+ 1252  ./c.out 192.168.77.228/4000
+ 1253  ./s.out 
+ 1254  gcc client.c -o c.out
+ 1255  ./cl.out
+ 1256  ./sser.out
+ 1257  ./ser.out
+ 1258  ./ser.out 192.168.77.228
+ 1259  code .
+ 1260  gcc server.c -o s.out
+ 1261  ./server.o
+ 1262  ./client.o 
+ 1263  gcc server.c -o s.out
+ 1264  code .
+ 1265  ./server.out 
+ 1266  ./server.out 4000
+ 1267  ./ client.out 
+ 1268  code .
+ 1269  clear
+ 1270  ./server.o 
+ 1271  clear
+ 1272  gcc server.c -o s.o
+ 1273  clear
+ 1274  ./server.o 
+ 1275  ./client.o 
+ 1276  clear
+ 1277  ./client.o 
+ 1278  ./s.out 
+ 1279  ./s.out 5000
+ 1280  gcc server.c -o s.out
+ 1281  gcc client.c -o c.out
+ 1282  ./server.out 
+ 1283  ./server.out 5000
+ 1284  ./client.out 
+ 1285  192.168.77.228 55000
+ 1286  ./client.out 192.168
+ 1287  ./client.out 192.168.77.228 5000
+ 1288  ./c.out 192.168.77.228 5000
+ 1289  ./s.out 5000
+ 1290  ls
+ 1291  cd ..
+ 1292  cp -r 220340126005/ /home/rajesh/
+ 1293  ls -l
+ 1294  ls lart /home/rajesh/
+ 1295  ls -lart /home/rajesh/
+ 1296  ip a
+ 1297  ip a
+ 1298  which scp
+ 1299  sudo dpkg -tzdata
+ 1300  man dpkg
+ 1301  sudo dpkg-reconfigure tzdata
+ 1302  dpkg-reconfigure tzdata
+ 1303  su - 
+ 1304  su - diot 
+ 1305  code .
+ 1306  spark -submit 1.py
+ 1307  spark -submit 1.py 
+ 1308  spark-submit 1.py 
+ 1309  clear
+ 1310  spark-submit 1.py 
+ 1311  clear
+ 1312  spark-submit 1.py 
+ 1313  clear
+ 1314  spark-submit 1.py 
+ 1315  spark-submit 2.py 
+ 1316  spark-submit 3.py 
+ 1317  spark-submit 4.py 
+ 1318  traceroute
+ 1319  sudo apt install traceroute 
+ 1320  ls
+ 1321  sudo ./VMware-Workstation-Full-16.2.4-20089737.x86_64.bundle 
+ 1322  sudo apt update
+ 1323  sudo apt upgrade
+ 1324  sudo apt install gcc build-essential
+ 1325  sudo apt update
+ 1326  sudo apt upgrade
+ 1327  code .
+ 1328  sudo apt-get install default-jre
+ 1329  sudo adduser kafka
+ 1330  wget https://dlcdn.apache.org/kafka/3.2.0/kafka_2.13-3.2.0.tgz 
+ 1331  tar xzf kafka_2.13-3.2.0.tgz 
+ 1332  sudo mv kafka_2.13-3.2.0 /usr/local/kafka 
+ 1333  vim /etc/systemd/system/zookeeper.service
+ 1334  vim /etc/systemd/system/zookeeper.service
+ 1335  vim /etc/systemd/system/kafka.service
+ 1336  bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic testTopic --from-beginning
+ 1337  cd /usr/local/kafka
+ 1338  bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic testTopic
+ 1339  bin/kafka-console-producer.sh --broker-list localhost:9092 --topic testTopic
+ 1340  systemctl daemon-reload
+ 1341  sudo systemctl start zookeeper
+ 1342  ls
+ 1343  cd etc
+ 1344  cd /etc/systemd/system
+ 1345  ls
+ 1346  ~
+ 1347  cd ~
+ 1348  vim /etc/systemd/system/zookeeper.service
+ 1349  nano /etc/systemd/system/zookeeper.service
+ 1350  sudo [Unit]
+ 1351  Description=Apache Zookeeper server
+ 1352  Documentation=http://zookeeper.apache.org
+ 1353  Requires=network.target remote-fs.target
+ 1354  After=network.target remote-fs.target
+ 1355  [Service]
+ 1356  Type=simple
+ 1357  ExecStart=/usr/local/kafka/bin/zookeeper-server-start.sh /usr/local/kafka/config/zookeeper.properties
+ 1358  ExecStop=/usr/local/kafka/bin/zookeeper-server-stop.sh
+ 1359  Restart=on-abnormal
+ 1360  [Install]
+ 1361  [Unit]
+ 1362  Description=Apache Zookeeper server
+ 1363  Documentation=http://zookeeper.apache.org
+ 1364  Requires=network.target remote-fs.target
+ 1365  After=network.target remote-fs.target
+ 1366  [Service]
+ 1367  Type=simple
+ 1368  ExecStart=/usr/local/kafka/bin/zookeeper-server-start.sh /usr/local/kafka/config/zookeeper.properties
+ 1369  ExecStop=/usr/local/kafka/bin/zookeeper-server-stop.sh
+ 1370  Restart=on-abnormal
+ 1371  [Install]
+ 1372  sudo nano /etc/systemd/system/zookeeper.service
+ 1373  sudo nano /etc/systemd/system/kafka.service
+ 1374  systemctl daemon-reload
+ 1375  sudo systemctl start zookeeper
+ 1376  sudo systemctl start kafka
+ 1377  sudo systemctl status kafka
+ 1378  sudo systemctl status zookeeper
+ 1379  pip install Kafka
+ 1380  pip install py4j
+ 1381  pip install kafka-python
+ 1382  bin/kafka-topics.sh --list --zookeeper localhost:9092
+ 1383  cd /usr/local/kafka
+ 1384  bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic testTopic --from-beginning
+ 1385  cd /usr/local/kafka
+ 1386  bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic testTopic
+ 1387  bin/kafka-topics.sh --list --zookeeper localhost:9092
+ 1388  bin/kafka-console-producer.sh --broker-list localhost:9092 --topic testTopic
+ 1389  spark-submit producer_iris.py 
+ 1390  ping 172.16.74.129
+ 1391  ifconfig
+ 1392  ls
+ 1393  exit
+ 1394  gparted
+ 1395  code .
+ 1396  sudo nano bash.rc
+ 1397  ls
+ 1398  sudo nano ~/.bashrc
+ 1399  source ~/.bashrc
+ 1400  spark-submit ml_example.py 
+ 1401  Jupyter: Create New Jupyter Notebook
+ 1402  spark-submit linear_reg.py 
+ 1403  jupyter
+ 1404  ls
+ 1405  cd bin
+ 1406  mkdir tushar
+ 1407  sudo apt install xfce4 xfce4-goodies
+ 1408  code .
+ 1409  sudo service dockerd
+ 1410  sudo service docker status
+ 1411  grep dockerd
+ 1412  sudo docker run hello-world
+ 1413  sudo docker images | gerp hello-world
+ 1414  sudo docker images | grep hello-world
+ 1415  sudo docker images
+ 1416  sudo docker ls
+ 1417  docker --version
+ 1418  sudo service docker status
+ 1419  ps -aux | grep docker 
+ 1420  sudo service docker status
+ 1421  cd /etc/
+ 1422  ls
+ 1423  cd Docker
+ 1424  cd ~
+ 1425  cd etc
+ 1426  cd /etc
+ 1427  cd /docker
+ 1428  ls
+ 1429  cd /docker
+ 1430  cd docker/
+ 1431  ls
+ 1432  ps -a
+ 1433  sudo docker ps -a
+ 1434  sudo docker build -t pgdiot22 .
+ 1435  ls
+ 1436  sudo docker container run pgdiot22
+ 1437  run pgdiot22
+ 1438  sudo docker run pgdiot22
+ 1439  sudo docker build -t pgdiot33 .
+ 1440  sudo docker build -t test1 .
+ 1441  sudo docker run test1
+ 1442  ls
+ 1443  sudo docker pull ubuntu
+ 1444  sudo docker images
+ 1445  sudo docker pull ubuntu
+ 1446  sudo docker rmi -f 96beb277fede
+ 1447  sudo docker images
+ 1448  code .
+ 1449  docker ps
+ 1450  docker start c9c4a7e05e3f
+ 1451  exit
+ 1452  docker pull ubuntu:18.04
+ 1453  docker run -it ubuntu:18.04 bash
+ 1454  docker ps
+ 1455  docker inspect c9c4a7e05e3f
+ 1456  docker run -it ubuntu:18.04 bash
+ 1457  docker start c9c4a7e05e3f
+ 1458  docker container start c9c4a7e05e3f
+ 1459  docker ps -a
+ 1460  code .
+ 1461  docker run -it ubuntu:18.04
+ 1462  clear
+ 1463  sudo docker build -t test1
+ 1464  sudo docker build -t test1.
+ 1465  sudo docker build -t test1 .
+ 1466  clear
+ 1467  sudo docker build -t test1 .
+ 1468  sudo docker run test1
+ 1469  sudo docker build -t test2 .
+ 1470  sudo docker run test2
+ 1471  sudo docker run -it test2
+ 1472  sudo docker build -t diotos:v2 .
+ 1473  sudo docker run -it diotos:v2
+ 1474  sudo docker run -it diotos:v2 bash
+ 1475  docker images
+ 1476  sudo docker build -t diotos:v2 .
+ 1477  docker images
+ 1478  sudo docker run -it diotos:v2 bash
+ 1479  code .
+ 1480  sudo docker build -t addtwonumbers:v0 .
+ 1481  sudo docker build -t addtwonumber:v0 .
+ 1482  docker build -t addtwonumber:v0 .
+ 1483  sudo docker build -t addtwonumber:v0 .
+ 1484  sudo docker build -t diotos:v2 .
+ 1485  sudo docker run -it diotos:v2 bash
+ 1486  docker inspect diotos
+ 1487  docker ps
+ 1488  docker inspect 6a3f76651df9
+ 1489  python3 add_two_numbers.py 
+ 1490  clear
+ 1491  python3 add_two_numbers.py 
+ 1492  code .
+ 1493  sudo docker build -t readfile:v3 .
+ 1494  sudo docker run -it readfile:v3
+ 1495  # sudo docker run --name addcal -it readfile:v3
+ 1496  sudo docker run -it readfile:v3
+ 1497  sudo docker run -it readfile:v3 bash
+ 1498  sudo docker run readfile
+ 1499  docker ps
+ 1500  docker container stop 6e02fb1a38df
+ 1501  docker ps
+ 1502  docker stop 6e02fb1a38df
+ 1503  docker ps
+ 1504  docker stop e7ea304770c8
+ 1505  docker start e7ea304770c8
+ 1506  docker ps
+ 1507  docker run e7ea304770c8
+ 1508  docker images
+ 1509  docker run 6e02fb1a38df
+ 1510  docker run -it 6e02fb1a38df bash
+ 1511  docker ps
+ 1512  docker attach e7ea304770c8 
+ 1513  docker images
+ 1514  docker exec -it a55bb2ed28a5 sh
+ 1515  docker start a55bb2ed28a5
+ 1516  docker ps -a
+ 1517  docker start 703e01ebdb4e
+ 1518  docker attach 703e01ebdb4e
+ 1519  5
+ 1520  docker attach 703e01ebdb4e
+ 1521  conda deactivate
+ 1522  clear
+ 1523  sudo apt update
+ 1524  sudo apt upgrade
+ 1525  clear
+ 1526  banner oolalal ooolalal
+ 1527  sudo apt install sysvbanner
+ 1528  clear
+ 1529  banner MASTA OOGWA
+ 1530  banner HEHE CAT
+ 1531  banner HENTAI
+ 1532  banner is
+ 1533  banner GREAT
+ 1534  docker build -t python:v0 .
+ 1535  docker run -it python:v0 
+ 1536  docker ps
+ 1537  docker ps -a
+ 1538  docker system prune -a --volumes
+ 1539  docker images
+ 1540  docker run -it python:v0 
+ 1541  docker build -t python:v0 .
+ 1542  docker run -it python:v0 
+ 1543  docker ps  -a
+ 1544  conda deactivate
+ 1545  sudo systemctl service ssh status\
+ 1546  sudo systemctl service ssh status
+ 1547  sudo service status ssh
+ 1548  sudo status service ssh
+ 1549  sudo serivce status ssh
+ 1550  sudo service status ssh
+ 1551  sudo ssh service status
+ 1552  sudo service ssh status
+ 1553  clear
+ 1554  code
+ 1555  code .
+ 1556  pwd
+ 1557  ls
+ 1558  cd test
+ 1559  pwd
+ 1560  docker images
+ 1561  docker images ls
+ 1562  docker container ls -a
+ 1563  docker container ls 
+ 1564  docker pull ubuntu:20.04
+ 1565  docker images -a
+ 1566  mkdir test
+ 1567  ls
+ 1568  sudo docker run -d -it--name ubuntu-os --mount type=bind,source=home/rajesh/Sharukh/Edge & cloud computing/06-08-2022/test,target=/dockerc ubuntu:20.04
+ 1569  clear
+ 1570  sudo docker run -d -it--name ubuntu-os --mount type=bind,source=/home/rajesh/Sharukh/Edge & cloud computing/06-08-2022/test,target=/dockerc ubuntu:20.04
+ 1571  sudo docker run -d -it--name ubuntu-os --mount type=bind,source=/home/rajesh/Sharukh/Edge \& \cloud \computing/06-08-2022/test,target=/dockerc ubuntu:20.04
+ 1572  sudo docker run -d -it --name ubuntu-os --mount type=bind,source=/home/rajesh/Sharukh/Edge \& \cloud \computing/06-08-2022/test,target=/dockerc ubuntu:20.04
+ 1573  sudo docker run -d -it --name ubuntu-os --mount type=bind,source=/home/rajesh/Sharukh/Edge & cloud computing/06-08-2022/test,target=/dockerc ubuntu:20.04
+ 1574  sudo docker run -d -it --name ubuntu-os --mount type=bind,source=/home/rajesh/Sharukh/Edge-&-cloud-computing/06-08-2022/test,target=/dockerc ubuntu:20.04
+ 1575  code .
+ 1576  sudo docker run -d -it --name ubuntu-os --mount type=bind,source=
+ 1577  conda deactivate
+ 1578  sudo docker run -d -it --name ubuntu-os --mount type=bind,source=/home/rajesh/Sharukh/Edge_cloud/06-08-2022/test,target=/dockerc ubuntu:20.04
+ 1579  docker exec -it ubuntu-os bash
+ 1580  cd
+ 1581  cd /var/lib/docker/volumes
+ 1582  conda deactivate
+ 1583  cd /var/lib/docker/volumes
+ 1584  sudo su
+ 1585  clear
+ 1586  docker ps
+ 1587  sudo docker run -d -it --name ubuntu-os --mount type=bind,source=/home/rajesh/Sharukh/Edge_cloud/06-08-2022/test,target=/dockerc \
+ 1588  docker commit 37d25111270c
+ 1589  docker images
+ 1590  ls
+ 1591  exit
+ 1592  ifconfig
+ 1593  docker save -o c1.tar c1
+ 1594  docker ps
+ 1595  sudo docker save -o c1.tar c1
+ 1596  docker ps -a
+ 1597  docker save -o c2.tar c2
+ 1598  sudo docker save -o c2.tar c2
+ 1599  sudo docker save -o c2.tar ubuntu:20.04
+ 1600  docker load c2.tar
+ 1601  ls
+ 1602  dclear
+ 1603  ls
+ 1604  touch test2.txt
+ 1605  sudo docker cp ./test2.txt 37d25111270c:/mydatac1
+ 1606  clear
+ 1607  ps
+ 1608  pwd
+ 1609  udo docker cp a855681bb821:/mydatac1/test2.txt .
+ 1610  docker cp a855681bb821:/mydatac1/test2.txt .
+ 1611  sudo docker pull ubuntu/apache2
+ 1612  docker run -d --name apc -e TZ = UTC -p 6500:80 ubuntu/apache2 
+ 1613  docker run -d --name apc -e TZ=UTC -p 6500:80 ubuntu/apache2 
+ 1614  docker ps
+ 1615  exit
+ 1616  sudo apt-get install grafana
+ 1617  sudo apt update
+ 1618  sudo apt install mysql-server
+ 1619  sudo systemctl start mysql.service
+ 1620  sudo mysql
+ 1621  sudo apt-get install -y adduser libfontconfig1
+ 1622  wget https://dl.grafana.com/oss/release/grafana_9.0.6_amd64.deb
+ 1623  sudo dpkg -i grafana_9.0.6_amd64.deb
+ 1624  sudo systemctl daemon-reload
+ 1625  sudo systemctl start grafana-server
+ 1626  sudo systemctl status grafana-server
+ 1627  sudo systemctl enable grafana-server.service
+ 1628  exit
+ 1629  docker ps
+ 1630  docker exec -it apc bash
+ 1631  docker ps -a
+ 1632  docker exec -it c1 bash 
+ 1633  docker run -it c1 bash
+ 1634  docker run -it c1 
+ 1635  sudo docker run -it c1 bash .
+ 1636  docker run -it 37d25111270c bash . 
+ 1637  docker exec -it c1 bash
+ 1638  docker start c1
+ 1639  docker exec -it c1 bash
+ 1640  docker cp ./test2.txt a855681bb821:mydatac1 
+ 1641  docker exec -it c1 bash
+ 1642  docker cp ./test2.txt a855681bb821:mydatac 
+ 1643  docker exec -it c1 bash
+ 1644  docker exec -it c2 bash
+ 1645  docker start c2
+ 1646  docker exec -it c2 bash
+ 1647  clear
+ 1648  docker ps -a
+ 1649  docker cp a855681bb821 mydatac1 /home/rajesh/Sharukh/Edge_cloud/06-08-2022/test
+ 1650  docker cp a855681bb821 mydatac /home/rajesh/Sharukh/Edge_cloud/06-08-2022/test
+ 1651  docker exec -it c2 bash
+ 1652  clear
+ 1653  docker run ubuntu/apache2
+ 1654  code .
+ 1655  ls
+ 1656  sudo docker build -t sharukh_test_repo .
+ 1657  docker push sharukh1/sharukh_test_repo:tagname
+ 1658  docker push sharukh1/sharukh_test_repo:sharukh_test_repo
+ 1659  docker login
+ 1660  docker images
+ 1661  docker login
+ 1662  docker push sharukh1/sharukh_test_repo:latest
+ 1663  docker tag sharukh_test_repo:v4 
+ 1664  docker tag sharukh_test_repo:v4 sharukh_test1_repo/diot22:diotv4
+ 1665  docker tag sharukh_test_repo:v4 .
+ 1666  docker tag sharukh_test_repo sharukh1/sharukh_test_repo:diot22
+ 1667  docker images
+ 1668  docker login
+ 1669  docker push sharukh1/sharukh_test_repo:diot22
+ 1670  docker pull abhishek97sahu/diot22:diotv0
+ 1671  docker images
+ 1672  docker build -t abhishek97sahu/diot22:diotv0
+ 1673  docker build -t abhishek97sahu
+ 1674  docker run -it abhishek97sahu/diot22
+ 1675  docker run -it diotv0
+ 1676  docker images
+ 1677  docker run -it 
+ 1678  docker pull abhishek97sahu/diot22:diotv0
+ 1679  docker run -t abhishek97sahu/diot22:diotv0
+ 1680  docker run -t diotv0
+ 1681  pip3 freeze
+ 1682  /usr/bin/python3.9 /home/rajesh/Sharukh/Edge_cloud/08-08-2022/composetest/app.py
+ 1683  docker compose
+ 1684  docker compose up
+ 1685  docker ps
+ 1686  sudo apt update
+ 1687  sudo apt install docker-compose-plugin
+ 1688  sudo apt install docker-compose
+ 1689  docker-compose up
+ 1690  python3 subscriber.py 
+ 1691  sudo apt install paho-mqtt
+ 1692  sudo apt install pahomqtt
+ 1693  pip install paho-mqtt
+ 1694  python3 subscriber.py 
+ 1695  python3 subscriber-mqtt.py 
+ 1696  code .
+ 1697  docker run -it -p 1883:1883 -p 9001:9001 -v mosquitto.conf:/mosquitto/config/mosquitto.conf eclipse-mosquitto
+ 1698  docker ps
+ 1699  docker ps -a
+ 1700  docker run -it -p 1883:1883 -p 9001:9001 -v mosquitto.conf:/mosquitto/config/mosquitto.conf -v /mosquitto/data -v /mosquitto/log eclipse-mosquitto
+ 1701  docker pull eclipse
+ 1702  docker pull eclipse-mosquitto
+ 1703  service mosquitto status
+ 1704  docker images
+ 1705  pwd
+ 1706  mosquitto_sub -t test -h localhost -p 6500
+ 1707  mosquitto_pub -t test -h localhost -p 6500 -m hello
+ 1708  python3 --version
+ 1709  docker run -it -p 6500:1883 --name mqtt-broker -v /home/rajesh/Sharukh/Edge_cloud/09-08--2022/mosquitto.conf:/mosquitto/config/mosquitto.conf eclipse-mosquitto
+ 1710  docker container ls -a\
+ 1711  docker container ls -a
+ 1712  docker container rm -f 8597d5c9aa25
+ 1713  docker run -it -p 6500:1883 --name mqtt-broker -v /home/rajesh/Sharukh/Edge_cloud/09-08--2022/mosquitto.conf:/mosquitto/config/mosquitto.conf eclipse-mosquitto
+ 1714  docker container rm -f 8597d5c9aa25
+ 1715  docker container rm -f mqtt-broker 
+ 1716  docker run -it -p 6500:1883 --name mqtt-broker -v /home/rajesh/Sharukh/Edge_cloud/09-08--2022/mosquitto.conf:/mosquitto/config/mosquitto.conf eclipse-mosquitto
+ 1717  code .
+ 1718  pwd
+ 1719  sudo docker ps
+ 1720  sudo docker ps -a
+ 1721  sudo docker pws
+ 1722  sudo docker ps
+ 1723  history
+ 1724  sudo  docker-compose run subscriber
+ 1725  docker compose up docker-compose.yml
+ 1726  docker compose up 
+ 1727  docker-compose up 
+ 1728  sudo docker-compose up 
+ 1729  ifconfig
+ 1730  whoam i
+ 1731  who ami
+ 1732  whoami
+ 1733  ssh @192.168.77.171
+ 1734  ssh itadmin@192.168.77.171
+ 1735  service ssh status
+ 1736  git status
+ 1737  git init .
+ 1738  git add .
+ 1739  git init
+ 1740  git status
+ 1741  git add .
+ 1742  git status
+ 1743  git commit -m "python codes"
+ 1744  git push -u origin master 
+ 1745  git remote add origin https://github.com/sharukhatar/Sharukh_code_backup.git
+ 1746  git status
+ 1747  git push -u origin master 
+ 1748  git status
+ 1749  git push -u origin master 
+ 1750  git branch
+ 1751  git push -u origin master 
+ 1752  git push origin master 
+ 1753  git pull origin master 
+ 1754  git push -u origin Master 
+ 1755  git push -u origin master 
+ 1756  git status
+ 1757  git push -u origin python_codes
+ 1758  git push -u origin Master
+ 1759  git push -u origin master 
+ 1760  git status
+ 1761  git init
+ 1762  git add .
+ 1763  git status
+ 1764  git push -u origin Python_codes
+ 1765  git push -u origin master 
+ 1766  pwd
+ 1767  ls
+ 1768  git status
+ 1769  git add .
+ 1770  git init
+ 1771  git init .
+ 1772  rm -rf .git
+ 1773  ls -al
+ 1774  git init .
+ 1775  git clone https://github.com/sharukhatar/Sharukh_code_backup.git
+ 1776  git status
+ 1777  git add .
+ 1778  git status
+ 1779  git add -A C_codes
+ 1780  git status
+ 1781  git commit -m "iot"
+ 1782  git status
+ 1783  git push
+ 1784  git push C_codes
+ 1785  git push --set-upstream C_codes master
+ 1786  git push -u origin master
+ 1787  git push -u origin C_codes master
+ 1788  git push
+ 1789  git push git push --set-upstream C_codes master
+ 1790  git push https://github.com/sharukhatar/Sharukh_code_backup.git
+ 1791  git status
+ 1792  git push C_codes -u origin master
+ 1793  git remote add origin
+ 1794  git remote add origin https://github.com/sharukhatar/Sharukh_code_backup.git
+ 1795  git status
+ 1796  git push 
+ 1797  git add .
+ 1798  git add *
+ 1799  git status
+ 1800  git restore --stage .
+ 1801  git rm --cached .
+ 1802  git rm --cached -r .
+ 1803  git rm --cached -f .
+ 1804  git status
+ 1805  git commit -m "iot"
+ 1806  git push
+ 1807  git push .
+ 1808  git push -u origin master
+ 1809  git clone https://github.com/sharukhatar/sharukhatar.git
+ 1810  git status
+ 1811  git add C_codes/
+ 1812  git status
+ 1813  git add C_codes
+ 1814  git status
+ 1815  git add C_codes/*
+ 1816  git status
+ 1817  ls -a
+ 1818  git add --all C_codes
+ 1819  git status
+ 1820  ls -al
+ 1821  git add .
+ 1822  git status
+ 1823  git commit -m "c codes"
+ 1824  git push
+ 1825  ls -al
+ 1826  git status
+ 1827  git add .
+ 1828  git push
+ 1829  git status
+ 1830  ls -al
+ 1831  git status
+ 1832  git commit -m "python codes"
+ 1833  git add .
+ 1834  git push
+ 1835  git status
+ 1836  ls
+ 1837  git add .
+ 1838  git status
+ 1839  ls -al
+ 1840  git add .
+ 1841  git status
+ 1842  git push
+ 1843  git status
+ 1844  ls -al
+ 1845  git add .
+ 1846  git status
+ 1847  git add .
+ 1848  git status
+ 1849  git push
+ 1850  git push -u origin master
+ 1851  ls
+ 1852  ls-al
+ 1853  ls -al
+ 1854  git init
+ 1855  git add .
+ 1856  git status
+ 1857  git branch
+ 1858  git add python_codes
+ 1859  ls -a
+ 1860  rm rf .git
+ 1861  rm -rf .git
+ 1862  ls -a
+ 1863  ls -a
+ 1864  ls 
+ 1865  git clone https://github.com/sharukhatar/master.git
+ 1866  ls -a 
+ 1867  cd master
+ 1868  ls
+ 1869  git add .
+ 1870  git status
+ 1871  git commit -m "iot_data"
+ 1872  git status
+ 1873  git push -u origin master
+ 1874  git push 
+ 1875  git clone https://github.com/sharukhatar/master.git
+ 1876  git status
+ 1877  git add .
+ 1878  git status
+ 1879  git init
+ 1880  git status
+ 1881  git add .
+ 1882  git status
+ 1883  git init
+ 1884  git add .
+ 1885  git status
+ 1886  git init
+ 1887  git add .
+ 1888  git status
+ 1889  git add .
+ 1890  git status
+ 1891  git push 
+ 1892  git init
+ 1893  git add .
+ 1894  git commit -m "iot"
+ 1895  git push
+ 1896  git init
+ 1897  git add .
+ 1898  git commit -m "Iot"
+ 1899  git push
+ 1900  git init
+ 1901  git add .
+ 1902  git commit -m "Iot"
+ 1903  git push
+ 1904  git init
+ 1905  git add .
+ 1906  git status
+ 1907  git push
+ 1908  ls -l
+ 1909  git init
+ 1910  ls -l
+ 1911  git add .
+ 1912  git status
+ 1913  git commit -m "IoT"
+ 1914  git push
+ 1915  git clone https://github.com/sharukhatar/master.git
+ 1916  ls -a
+ 1917  rm -rf .git
+ 1918  git init
+ 1919  git add .
+ 1920  git status
+ 1921  git push
+ 1922  git commit -m "Iot"
+ 1923  git push
+ 1924  git clone https://github.com/sharukhatar/master.git
+ 1925  git status
+ 1926  git add .
+ 1927  git status
+ 1928  git commit -m "Iot"
+ 1929  git push
+ 1930  git commit -m "Iot"
+ 1931  git clone https://github.com/sharukhatar/master.git
+ 1932  git push
+ 1933  git push -u origin master
+ 1934  git init 
+ 1935  git status
+ 1936  git add .
+ 1937  git status
+ 1938  git commit -m "Iot"
+ 1939  git push -u origin master
+ 1940  ls -a
+ 1941  rm -rf .git
+ 1942  ls -a
+ 1943  git clone https://github.com/sharukhatar/master.git
+ 1944  git init
+ 1945  git add
+ 1946  git add .
+ 1947  git status
+ 1948  git commit -m "IoT"
+ 1949  git push
+ 1950  git push sharukhatar
+ 1951  git push --set-upstream sharukhatar master
+ 1952  git clone https://github.com/sharukhatar/master.git
+ 1953  git push -u origin master
+ 1954  git push
+ 1955  git init
+ 1956  git clone https://github.com/sharukhatar/master.git
+ 1957  git add .
+ 1958  git commit -m "Iot"
+ 1959  git push
+ 1960  git remote add sharukhatarhttps://github.com/sharukhatar/master.git
+ 1961  git remote add -m sharukhata https://github.com/sharukhatar/master.git
+ 1962  git push
+ 1963  git commit -m "Iot"
+ 1964  git add .
+ 1965  git init
+ 1966  git status
+ 1967  git push
+ 1968  git push web_prog
+ 1969  git commit -m "Iot"
+ 1970  ls -l
+ 1971  git clone https://github.com/sharukhatar/master.git
+ 1972  git push
+ 1973  ls 
+ 1974  ls -a
+ 1975  git status
+ 1976  ls -l
+ 1977  ls
+ 1978  ls-al
+ 1979  ls -al
+ 1980  rm -rf .
+ 1981  git clone https://github.com/sharukhatar/master.git
+ 1982  git init
+ 1983  git status
+ 1984  git add
+ 1985  git add .
+ 1986  git status
+ 1987  git commit -m "IoT"
+ 1988  git push
+ 1989  git push -u origin master
+ 1990  git push -u origin 
+ 1991  git push -u 
+ 1992  git branch 
+ 1993  git push -u origin master
+ 1994  git status
+ 1995  git add .
+ 1996  git status
+ 1997  git init
+ 1998  git init .
+ 1999  git clone https://github.com/sharukhatar/master.git
+ 2000  ls
+ 2001  cd master
+ 2002  ls
+ 2003  git add .
+ 2004  git status
+ 2005  git commit -m "iot"
+ 2006  git push - u origin Master
+ 2007  git branch
+ 2008  git status
+ 2009  git add .
+ 2010  git commit -m "Iot"
+ 2011  git push
+ 2012  touch hello.js
+ 2013  git stash
+ 2014  ls
+ 2015  nano hello.js
+ 2016  cat hello.js
+ 2017  git stash
+ 2018  nano hello.js
+ 2019  git stash
+ 2020  git stash list
+ 2021  git stash apply 1
+ 2022  git stash apply 
+ 2023  history > command_history.txt

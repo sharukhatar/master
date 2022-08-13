@@ -1,0 +1,60 @@
+<!--
+-->
+<html>
+    <head>
+        <style>span{color:red}</style>
+        <script>
+            function f1()
+            {
+             let name= document.getElementById("uname").value
+             if (name.length<5 || name.length >10)
+                {
+                document.getElementById("s1").innerHTML="name is incorerct length"
+                document.getElementById("uname").focus()
+                return false;
+                }
+            else return true; 
+            
+            }
+
+            function f2()
+            {
+                let age= document.getElementById("age").value
+        
+                if (!isFinite(age))
+                {
+                    alert("age should be number")
+                    return false;
+                }  
+                else if (age<18 || age>60)
+                    {
+                    alert("invalid age")
+                    return false;
+                    }  
+                else return true;   
+            }
+
+            function validate()
+            {
+                if(f1() && f2())
+                    return true;
+                else return false;
+            }
+        </script>
+    </head>
+    <body>
+        <form onsubmit= "validate()">
+        User name : <input id="uname"
+                            name="uname"
+                            required  
+                            autofocus >
+         <span id="s1"></span><br><br>
+        Age : <input id="age" 
+                    name="age" 
+                    required
+                    autofocus>
+         <span id="s2"></span><br><br>
+        <input type="submit"value="submit">
+        </form>    
+    </body>
+</html>

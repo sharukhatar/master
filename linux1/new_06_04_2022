@@ -1,0 +1,532 @@
+    1  sudo apt  install openssh
+    2  sudo apt  install openssh-server
+    3  sudo service ssh status
+    4  sudo apt  install openssh-server
+    5  gcc
+    6  sudo apt install gcc
+    7  sudo su
+    8  anydesk
+    9  sudo apt  install openssh
+   10  sudo su
+   11  sudo apt -open browser
+   12  sudo apt -open
+   13  clear
+   14  ls
+   15  sudo apt update
+   16  who am i
+   17  man who
+   18  gedit
+   19  gcc pract.c -o pract.out
+   20  ./pract.out
+   21  gcc pract.c -o pract.out
+   22  ./pract.out
+   23  gcc pract.c -o pract.out
+   24  ./pract.out
+   25  sudo apt update
+   26  sudo apt upgrade
+   27  sudo apt upgrade -y
+   28  ls
+   29  gcc arrays.c -o arrays.out
+   30  ./arrays.out
+   31  ls
+   32  gcc pract1.c -o pract1.out
+   33  ./pract1.out
+   34  gcc pract1.c -o pract1.out
+   35  ./pract1.out
+   36  gcc pract1.c -o pract1.out
+   37  ./pract1.out
+   38  gcc string.c -o string.out
+   39  ./string.out
+   40  gcc string.c -o string.out
+   41  ./string.out
+   42  gcc string.c -o string.out
+   43  ./string.out
+   44  su -rajesh
+   45  sudo usermod -aG sudo diot
+   46  sudo usermod -s /bin/bash diot
+   47  exit
+   48  su - rajesh
+   49  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   50  sudo apt install ./google-chrome-stable_current_amd64.deb
+   51  sudo add-apt-repository universe
+   52  sudo apt update
+   53  sudo apt install -y putty
+   54  putty --version
+   55  sudo apt install xfce4 xfce4-goodies
+   56  gedit
+   57  ls
+   58  gcc Q1.c -o Q1.out
+   59  ./Q1.out
+   60  gcc Q1.c -o Q1.out
+   61  ./Q1.out
+   62  restart
+   63  sudo restart
+   64  ulimit -s
+   65  gedit
+   66  ls
+   67  gcc struct_pointer.c
+   68  gcc struct_pointer.c -o s.out
+   69  ./s.out
+   70  gcc struct_pointer.c -o s.out
+   71  ls
+   72  gcc struct_pointer.c -o s.out
+   73  ./s.out
+   74  ls
+   75  gcc struct_pointer.c -o s.out
+   76  ./s.out
+   77  sudo apt update
+   78  sudo apt upgarde -y
+   79  sudo apt upgrade
+   80  sudo reboot
+   81  ls
+   82  gcc struct_pointer.c -o s1.out
+   83  clear
+   84  gcc struct_pointer.c -o s1.out
+   85  ./s1.out
+   86  ls
+   87  gcc struct_pointer.c -o s1.out
+   88  ./s1.out
+   89  gcc struct_pointer.c -o s1.out
+   90  ./s1.out
+   91  gcc struct_pointer.c -o s1.out
+   92  ls
+   93  gcc Q2.C -o Q2.out
+   94  gcc Q2.c -o Q2.out
+   95  gcc Q2.C -o Q2.out
+   96  clear
+   97  ls
+   98  gcc Q2.c -o Q2.out
+   99  clear
+  100  gcc Q2.c -o Q2.out
+  101  ./Q2.out
+  102  gcc Q2.c -o Q2.out
+  103  clear
+  104  ls
+  105  gcc Q2.c -o Q2.out
+  106  ./Q2.out
+  107  gedit
+  108  ls
+  109  gcc CDAC.c -o CDAC.out
+  110  clear
+  111  gcc CDAC.c -o CDAC.out
+  112  ls
+  113  gcc CDAC.c -o CDAC.out
+  114  claer
+  115  clear
+  116  ls
+  117  gcc CDAC.c -o CDAC.out
+  118  clear
+  119  ls
+  120  gcc Q4.c -o Q4.out
+  121  ./Q4.out
+  122  gcc Q4.c -o Q4.out
+  123  ./Q4.out
+  124  gcc Q4.c -o Q4.out
+  125  ./Q4.out
+  126  gcc Q4.c -o Q4.out
+  127  ./Q4.out
+  128  man malloc
+  129  gedit
+  130  gcc Malloc.c -o m.out
+  131  ./m.out
+  132  ls
+  133  gcc calloc.c -o c.out
+  134  clear
+  135  gcc calloc.c -o c.out
+  136  ./c.out
+  137  gcc calloc.c -o c.out
+  138  ./c.out
+  139  gcc realloc.c -o r.out
+  140  ./r.out
+  141  gcc realloc.c -o r.out
+  142  ./r.out
+  143  gcc realloc.c -o r.out
+  144  ./r.out
+  145  gcc realloc.c -o r.out
+  146  ./r.out
+  147  gcc realloc.c -o r.out
+  148  ./r.out
+  149  clars
+  150  clear
+  151  ls
+  152  gcc math_lib.c -o m.out
+  153  ./m.out
+  154  ls
+  155  gcc math_lib.c -o m.out
+  156  ./m.out
+  157  gcc math_lib.c -o m.out
+  158  ./m.out
+  159  sudo apt update
+  160  sudo apt upgrade -y
+  161  sudo apt update
+  162  sudo apt upgrade
+  163  ls
+  164  gcc
+  165  mkdir Nimesh
+  166  ls
+  167  rmdir Nimesh
+  168  ls
+  169  man cat
+  170  man math
+  171  mbjmn ndvs,ms f,mnln  vc,m  n
+  172  lsdkd;lmfkdm
+  173  ip config
+  174  is config
+  175  is-config
+  176  lsb_release
+  177  lsb_release -a
+  178  man string
+  179  gcc math_lib.c -o m.out
+  180  ./m.out
+  181  ls
+  182  gcc Q1_void.c -o v.out
+  183  ./v.out
+  184  gcc Q1_void.c -o v.out
+  185  ./v.out
+  186  claer
+  187  clear
+  188  ls
+  189  gcc void_arith.c -o v1.out
+  190  gcc Q2_void_arith.c -o v1.out
+  191  ./v1.out
+  192  gcc union_pract.c -o u.c
+  193  gcc union_pract.c -o u.out
+  194  ./u.out
+  195  man offsetof
+  196  sudo apt update
+  197  sudo apt upgrade
+  198  sudo add-apt-repository ppa:upubuntu-com/network
+  199  sudo apt-get update
+  200  ipscan
+  201  ssh username@server_IP
+  202  if config; ls;  clear
+  203  ssh rajesh 192.168.77.137/24
+  204  ssh Rajesh 192.168.77.137/24
+  205  ssh ra 192.168.77.137/24
+  206  ssh rajesh@192.168.77.137/24
+  207  ip a
+  208  ls
+  209  gedit
+  210  gcc fileop.c -o f.out
+  211  ./f.out
+  212  gcc fileop.c -o f.out
+  213  ./f.out
+  214  gcc fileop.c -o f.out
+  215  ./f.out
+  216  gcc fileop.c -o f.out
+  217  ./f.out
+  218  gcc fileop.c -o f.out
+  219  ./f.out
+  220  gcc fileop.c -o f.out
+  221  ./f.out
+  222  gcc fileop.c -o f.out
+  223  ./f.out
+  224  man gets
+  225  man fpts
+  226  man puts
+  227  ls
+  228  gcc Q1.c -o q.out
+  229  ./q.out
+  230  gcc fileop.c -o f.out
+  231  ./f.out
+  232  gcc Q2.c -o q2.out
+  233  ./q2.out
+  234  gcc Q2.c -o q2.out
+  235  ./q2.out
+  236  gcc Q2.c -o q2.out
+  237  ./q2.out
+  238  gcc Q2.c -o q2.out
+  239  ./q2.out
+  240  gcc Q2.c -o q2.out
+  241  ./q2.out
+  242  gcc Q2.c -o q2.out
+  243  ./q2.out
+  244  gcc Q2.c -o q2.out
+  245  ./q2.out
+  246  gcc Q2.c -o q2.out
+  247  ./q2.out
+  248  gcc Q2.c -o q2.out
+  249  ./q2.out
+  250  gcc Q2.c -o q2.out
+  251  ./q2.out
+  252  gcc Q2.c -o q2.out
+  253  gedit
+  254  ./q2.out
+  255  man fgets
+  256  gcc pract.c -o p.out
+  257  gcc Pract.c -o p.out
+  258  ./p.out
+  259  man gcc
+  260  ssh 192.168.77.211
+  261  ping 192.168.77.211
+  262  if config;  clear
+  263  ssh 192.168.77.73
+  264  ssh 192.168.77.133
+  265  ls
+  266  cd Desktop
+  267  ls
+  268  mkdir you_are_hacked
+  269  ls
+  270  mkdir whos_that
+  271  ls
+  272  ifconfig
+  273  ipconfig
+  274  ifconfig
+  275  ssh 192.168.77.249
+  276  ssh 192.168.77.207
+  277  ifconfig
+  278  sudo apt install net-tools
+  279  ifconfig
+  280  arp -a
+  281  gcc macro_main.c -o m.out
+  282  ./m.out
+  283  hostname
+  284  whoami
+  285  sli
+  286  cowsay hi
+  287  csmatrix
+  288  ls
+  289  cat /etc
+  290  mcmatrix
+  291  sl
+  292  sudo apt update
+  293  sudo apt upgrade
+  294  clear
+  295  whereis ifconfig
+  296  whereis python
+  297  ls
+  298  cd sharukh
+  299  cd Sharukh
+  300  mkdir -v linux1
+  301  ls
+  302  act -a
+  303  cd linux1 mkdir practice
+  304  cd ~
+  305  cd ~/Sharukh/linux1
+  306  cd ~
+  307  cd ..
+  308  cd..
+  309  cd ..
+  310  cd~
+  311  cd 
+  312  cd ..
+  313  ls
+  314  cd ..
+  315  cd
+  316  ls
+  317  cd ../../..
+  318  cd ~/Sharukh/linux1
+  319  ls
+  320  mkdir -p elxp/elxp1
+  321  ls
+  322  cd elxp
+  323  ls
+  324  cd ~
+  325  sudo apt install tree
+  326  users\
+  327  users
+  328  tree
+  329  sl
+  330  sl sl
+  331  echo echo
+  332  ls
+  333  |
+  334  sharuokluh ataarthhoi hyihjhfu fhoiuoq9q1222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222223333333333333333333333333333333333333333333323123333333333333333333333333333331231231231231232
+  335  cccccccm
+  336  lkjsf
+  337  zsid
+  338  jhd'
+  339  jdj
+  340  djsdudjnxci
+  341  ls
+  342  cd elxp
+  343  ls
+  344  touch 1.txt
+  345  ls
+  346  "Hello there">1.txt
+  347  echo "hello there" >1.txt
+  348  ls
+  349  cat 1.txt
+  350  python3
+  351  python
+  352  python3
+  353  sudo ln -s /usr/bin/python3 user/bin/python
+  354  python
+  355  python3
+  356  python3 first.py
+  357  python3 input.py
+  358  python3 first.py
+  359  python3 input.py
+  360  python3 cal.py
+  361  python3 if_else.py
+  362  python3 logical_cal.py
+  363  python3 Q1.py
+  364  python3 if_else.py
+  365  python3 cal.py
+  366  python3 first.py
+  367  python3 first.py
+  368  python3
+  369  echo "this is iot class"
+  370  echo "this is iot class">test.file.txt
+  371  ls
+  372  cat test.file.txt
+  373  free
+  374  exit
+  375  whoami
+  376  ls
+  377  exit
+  378  tree
+  379  exit
+  380  echo "new data is added">> test.data.txt
+  381  cat test.data.txt
+  382  ls
+  383  rmdir test.data.txt
+  384  rm test.data.txt
+  385  ls
+  386  mkdir test_dir && cd test_dir && touch 1.txt
+  387  ls
+  388  trr
+  389  tree
+  390  cd ..
+  391  ls
+  392  rm google-chrome-stable_current_amd64.deb
+  393  ls
+  394  rmdir test_dir
+  395  rm -rf test_dir
+  396  ls
+  397  mkdir test
+  398  ls
+  399  cd test
+  400  mkdir practice
+  401  los\
+  402  ls
+  403  cd practice
+  404  echo "hi">../practice/1.txt
+  405  cat ../practice/1.txt
+  406  mkdir -p 1/2/3
+  407  tree
+  408  cd ~/3
+  409  cd /1/2/3
+  410  cd 1/2/3/
+  411  ls
+  412  touch ../../2.txt
+  413  cd....
+  414  cd ....
+  415  cd../..
+  416  cd ..
+  417  cd..
+  418  cd ..
+  419  ls
+  420  cd /2/3/
+  421  cd ~/2/3
+  422  cd ~/2/3/
+  423  cd 2/3/
+  424  echo " hi nimesh"> ../../2.txt
+  425  cd ../../
+  426  cat 2.txt
+  427  script screen.log
+  428  ls
+  429  cat screen.log
+  430  ls
+  431  cat screen.log
+  432  ls
+  433  script output.txt
+  434  cat output.txt
+  435  script output.txt
+  436  cd -
+  437  cd-
+  438  cd -
+  439  less
+  440  ls
+  441  less 2.txt
+  442  ls -l
+  443  ls -lt
+  444  ls
+  445  ls -l
+  446  ls -a
+  447  script output.txt
+  448  ls
+  449  ls -l
+  450  script screen.log
+  451  ls - alh
+  452  ls -lh
+  453  ls -r
+  454  ls -lt
+  455  ls -i
+  456  python3
+  457  gedit
+  458  python3 loop_1.py 
+  459  clear
+  460  python3 Q1.py
+  461  python3 Q3.py
+  462  clear
+  463  python3 Q3.py
+  464  ls
+  465  python3 Q3.py
+  466  python3
+  467  echo 1 > file1.txt
+  468  echo 2 >file2.txt
+  469  echo 3 >file3.txt
+  470  cat file1 file2 file3
+  471  cat file1.txt file2.txt file3.txt
+  472  cat file1.txt >> file2.txt >> file3.txt
+  473  cat file3.txt
+  474  cat file1.txt file2.txt > file3.txt
+  475  cat file3.txt
+  476  sudo apt update
+  477  sudo apt upgrade
+  478  tty
+  479  ls
+  480  ls
+  481  cd ~Sharukh
+  482  cd sharukh
+  483  cd Sharukh
+  484  ls
+  485  cd linux1
+  486  ls
+  487  cd elxp
+  488  ls
+  489  cd elxp1
+  490  ls
+  491  cd..
+  492  cd 
+  493  cd ..
+  494  ls
+  495  cd ~
+  496  ls
+  497  cd Sharukh
+  498  ls
+  499  cd linux1
+  500  ls
+  501  tty
+  502  ls
+  503  cd ..
+  504  ls
+  505  cd linux1
+  506  ls
+  507  cat file1.txt file2.txt file3.txt
+  508  cat file3.txt
+  509  cat file1.txt > file2.txt
+  510  cat file2.txt
+  511  cat file1.txt
+  512  cat file1.txt >> file2.txt
+  513  cat file2.txt
+  514  cat file2.txt >> file3.txt
+  515  cat file3.txt
+  516  cat hello dear
+  517  cat 
+  518  cat > test.txt
+  519  cat test.txt
+  520  cat >> test.txt
+  521  cat test.txt
+  522  cat <test.txt
+  523  cat < test.txt > test1.txt
+  524  cat test1.txt
+  525  cat test.txt
+  526  script.log
+  527  script screen.log
+  528  history
+  529  history > 6_04_2022.txt
+  530  cat 6_04_2022.txt
+  531  hestory > new_06_04_2022
+  532  history > new_06_04_2022

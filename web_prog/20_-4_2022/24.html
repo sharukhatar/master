@@ -1,0 +1,34 @@
+<!--
+-->
+<html>
+    <head>
+        
+        <script>
+            function tt()
+            {
+             let x=parseInt(document.getElementById("num1").value)
+             let y=parseInt(document.getElementById("num2").value)
+             let z=parseInt(document.getElementById("num3").value)
+             let s1=""
+             let res=0
+             for(i=x;i<=y;i++)
+             {
+                re=i*z;  
+                s1+=(i+" times "+ z +" = "+re +"\n")
+             }
+             document.getElementById("re").innerHTML=s1
+            }
+            
+        </script>
+    </head>
+    <body>
+        <form>
+            Start Number:<input name="num1" id="num1">
+            End Number:<input name="num2" id="num2">
+            Multiply By:<input name="num2" id="num3"><br><br>
+            <input type="button" value="Time table" onclick="tt()" id="b1"><br><br>
+            <input type="reset" value="Reset"><br><br>
+            <textarea name="re" id="re" cols="50" rows="20"></textarea>
+        </form>    
+    </body>
+</html>

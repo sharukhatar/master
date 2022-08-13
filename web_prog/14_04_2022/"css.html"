@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>welcome page</title>
+		<style>
+		p{color:red}
+		h1{background-color:gold}
+		body{background-color:lightgrey}
+		h2{test-align:center}
+		</style>
+	</head>
+	<body>
+		<p><h2>welcome to htmal!</h1></p>
+		<h2>para_1</h2>
+		<h2>para_2</h2>
+		<h2>para_3</h2>
+		<h2>para_4</h2>
+		<h1>This is Header 3</h1>
+	</body>
+	
+</html>		

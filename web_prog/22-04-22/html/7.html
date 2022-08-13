@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+         $(document).ready(function()
+         {
+            //$("div h1").css("background-color","red")
+            //$("body").css("background-color","lightblue")
+            //$("div").css("background-color","gold")
+            //$("#target span:first").html("change the text")
+            //$("div:eq(1)").css("background-color","gold")
+            //$("input").hide()
+            console.log($("select option:nth-child(2)").html())
+            
+
+         }
+         )   
+        </script>
+    </head>
+    <body>
+        <form>
+            User name : <input id="uname"
+                                name="uname"
+                                required  
+                                autofocus >
+             <span id="s1"></span><br><br>
+            Age : <input id="age" 
+                        name="age" 
+                        required
+                        autofocus>
+                        <br><br>
+            <select id="myselect">
+                <option value="1">Option-1</option>
+                <option value="2">Option-2</option>
+                <option value="3">Option-3</option>
+            </select>            
+            <input type="submit"value="submit">
+            </form>    
+    </body>
+</html>

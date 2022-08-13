@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+            span{color:red}
+        </style>
+        <script>
+            function validate_Name()
+            {
+                let name=document.getElementById("uname").value
+                if(name.length<6)
+                {
+                    document.getElementById("s2").innerHTML="Customer name cannot be <6 characters"
+                    document.getElementById("uname").focus()
+                    return false;
+                }
+            }
+            function validate_Billing_date()
+            {
+                
+            }
+            function validate()
+            {
+               if(validate_Name() && validate_Billing_date())
+                    return true;
+                else 
+                    return false;    
+            }
+        </script>
+    </head>
+    <body>
+      <form onsubmit= "return validate()">
+        OrderId:<input id="u_id" name="u_id" required autofocus> 
+
+        <br><br>
+        Cust name:<input id="u_name" name="uname" required autofocus><span id="s2"></span>
+        <br><br>
+        Enter billing Date:<input id="u_bill" name="u_bill" required autofocus><span id="s3"></span>
+        <br><br>
+        Enter shipping date:<input id="u_ship" name="u_ship" required autofocus>
+        <br><br>
+        Order Total:<input id="u_total" name="u_total" required autofocus>
+        <br><br>
+        <input type="submit" value="Display">
+
+      </form>  
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!--
+-->
+<html>
+    <head>
+        <style>span{color:red}</style>
+        <script>
+            function f1()
+            {
+             let name= document.getElementById("uname").value
+             
+              if (name.length<5 || name.length >10)
+                {
+                //cument.getElementById("s1").innerHTML="name is incorerct length"
+				alert("name is incncorerct")
+                document.getElementById("uname").focus()
+                }
+            }
+
+            function f2()
+            {
+             let age= document.getElementById("age").value
+             if (age==null || age=="" || age.length ==0)
+                alert("age is required!!")
+             else if (!isFinite(age))
+                alert("age should be number")  
+            else if (age<18 || age>60)
+                alert("invalid age")   
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+        User name : <input id="uname"
+                    name="uname" 
+                    onchange="f1()" 
+					required
+                    autofocus >
+         <span id="s1"></span><br><br>
+        Age : <input id="age" name="age" onchange="f2()" autofocus><br><br>
+        <input type="button"value="submit">
+        </form>    
+    </body>
+</html>

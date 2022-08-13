@@ -1,0 +1,31 @@
+<!--
+-->
+<html>
+    <head>
+        
+        <script>
+            function greet()
+            {
+               let r= parseInt(document.getElementById("num1").value)
+               let a=Math.PI*r*r
+               let c=Math.PI*2*r
+               document.getElementById("p1").innerHTML="Area"+" = "+(a)
+               document.getElementById("p2").innerHTML="Circumference"+" = "+(c)
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+         Enter Radius :<input name="num1" id="num1"><br>
+         <br>
+    
+         <input type="button" value="Display" onclick="greet()">
+         <br>
+         <br>
+         <span id="p1"></span>
+         <br>
+         <br>
+         <span id="p2"></span>
+        </form>    
+    </body>
+</html>

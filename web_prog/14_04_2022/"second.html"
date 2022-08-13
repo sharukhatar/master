@@ -1,0 +1,82 @@
+<html>
+	<head>
+	
+	 <title>Welcome to the page</title>
+	 
+	</head>
+	<body>
+	<h1> coffee types</h1>
+	 <dr><img src="coffe.jpg" hight="100" width="100" align ="left">
+	<ol type="square">
+	
+		<li>Mocha</li>
+		<li>Cappuccino</li>
+			<ol>
+				<li>item1</li>
+				<li>item2</li>
+			
+			
+			</ol>
+		<li>Espresso</li>
+	</ol>
+	<br>
+	
+	
+	<table border="2">
+	<tr><th>Name</th><th>age</th><th>course</th></tr>
+	<tr><td>Sharukh Atar</td><td>24</td><td>iot</td></tr>
+	<tr><td>Abhishekh Sahu</td><td>24</td><td>iot</td></tr>
+	<tr><td>Nimesh </td><td>24</td><td>iot</td></tr>
+	<tr><td>kiran</td><td>24</td><td>iot</td></tr>
+	</table>
+	
+	<form>
+		placeholder: <input type="text" autofocus/> <br>
+		password : <input type="password"> <br>
+		Email :<input  type ="email">
+		<br>
+		Age :<input type = "number"
+			min="12"
+			max="18"
+			value="13">
+			<br>
+		Date :<input type = "date">
+		<br>
+		chose fave colour : <input type = "colour">
+		<br>
+		
+		mobile : <input type ="tel">
+		<br>
+		Gender:
+		<input type="radio" name= "gender">Male
+		<input type="radio" name= "gender">Female
+		<br>
+		Skills:
+		<input type="checkbox">HTML
+		<input type="checkbox">CSS
+		<input type="checkbox">Java
+		<input type="checkbox">Angular
+		
+		<br>
+		<input type="file">
+		<br>
+		
+		<textarea cols="80" rows="50"></textarea>
+		<br>
+		Hobbies:
+		<select multiple>
+		
+		
+		
+		</select>
+		<br>
+		<input type="submit" value="submit">
+		<input type= "reset" value="reset">
+	
+	</form>
+	
+	
+	
+	</body>
+
+</html>

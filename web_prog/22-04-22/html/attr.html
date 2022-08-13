@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            .c6{text-align: center;background-color:lightblue;}
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                //$("h1").append("<p>This is append to h1</p>" )
+                //$("h1").prepend("<p>This is append to h1</p>" )
+                //$("#n1").wrap("<h1></h2>" )
+                    //$("#n1").addClass(c6) 
+                  $("#btn1").click(function()
+                  {
+                    $("h1").fadeIn(5000)
+                  }) 
+                  $("#btn2").click(function()
+                  {
+                    $("h1").fadeOut(5000)
+                  })     
+            })
+        </script>
+    </head>
+    <body>
+      WELCOME TO JQuery
+
+      <h1>jQuery Enabled</h1>
+      <!--
+                                <p class="c6">Paragraph-1</p>
+                            <p id="n1">Paragraph-2</p>
+                            <p>Paragraph-3</p>
+                            <div>
+                                    <p>First Paragraph</p>
+                                    <p>Second Paragraph</p>
+                                    <p>Third Paragraph</p>
+                                    <p>Fourth Paragraph</p>
+                                    <p>Fifth Paragraph</p>
+                                    <p>Sixth Paragraph</p>
+                                </div>
+                                <h2 class="c1">Header2</h2>
+                                
+                            <div>
+                                <h2 class="c1">Header2</h2>
+                                <h2 class="c1">Header2</h2>
+                            -->
+        <input type="button" id="btn1" value="fadein" onclick="f1()">
+        <input type="button" id="btn2" value="slidedown" onclick="f1()">
+       </div>
+    </body>
+</html>

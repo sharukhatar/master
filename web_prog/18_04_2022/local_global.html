@@ -1,0 +1,21 @@
+<!--local and global-->
+<html>
+    <head>
+        <script>
+            var name="nancy"   //global
+            function demo()
+            {   var course="pgdiot"
+                console.log("IN FUNCTION",name)
+                console.log("IN local",course)
+                return ;
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+           demo()
+           console.log("IN FUNCTION",name)
+           console.log("IN local",course)
+        </script>
+    </body>
+</html>

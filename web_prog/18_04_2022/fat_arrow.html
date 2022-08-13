@@ -1,0 +1,42 @@
+<!------->
+<html>
+    <head>
+        <script>
+            var name="nancy"
+      
+            var greet1 =()=>document.write("Hello Sharukh <br>")
+        
+            var greet_user1 = name =>document.write("Hello " + name +"<br>")
+
+            var add1 = (a,b) =>document.write("sum = " + (a+b) +"<br>")
+
+            function strOps(str)
+            {
+                document.write(str.length +"<br>");
+                document.write(str.toUpperCase() +"<br>");
+                document.write(str.toLowerCase() +"<br>");
+            }
+            var str_Ops1 = str =>{
+                document.write(str.length +"<br>");
+                document.write(str.toUpperCase() +"<br>");
+                document.write(str.toLowerCase() +"<br>");
+            }
+            var display= () =>
+            {
+                for(i=1;i<11;i++)
+                    console.log(i)
+            }    
+        
+        </script>
+    </head>
+    <body>
+        <script>
+         greet1()
+         greet_user1(name)
+         add1(4,5)
+         strOps("NAncy")
+         str_Ops1("rastoGi")
+         display()
+        </script>
+    </body>
+</html>

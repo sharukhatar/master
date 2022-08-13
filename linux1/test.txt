@@ -1,0 +1,3 @@
+cat test.txt
+hello therer
+wow that was easy

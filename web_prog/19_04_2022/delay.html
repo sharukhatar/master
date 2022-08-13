@@ -1,0 +1,28 @@
+<!--
+-->
+<html>
+    <head>
+        <script>
+            /*
+            function f1()
+            {
+                alert("Calling f1()")
+            }
+            */
+            function f1()
+            {
+                let d1=new Date();
+                document.write(d1)
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            //setTimeout(function(){alert("Calling f1()")}, 5000)
+            //setTimeout(()=> {alert("hi")}, 5000)
+            //setInterval(()=> {console.log("hi")}, 3000)
+            let handle=setInterval(f1,1000)
+            clearInterval(handle)
+        </script>
+    </body>
+</html>

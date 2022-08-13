@@ -1,0 +1,27 @@
+<html>
+	<head>
+	
+	</head>
+	<body bgcolor= "white" text ="blue">
+	 	
+	 	<h1>Hello to new world <br></h1>
+	 	<hr color="red" width="50%" align="left" size="5px">
+	 
+	 	<h2>who is this <br></h2>
+	 	WELCOME TO <b><i><u>HTML!</U></i></b>!
+		
+		<P>In the early-to-mid 1990s, most Websites were based on complete HTML pages. Each user action required a complete new page to be loaded from the server. This process was inefficient, as reflected by the user experience: all page content disappeared, then the new page appeared. Each time the browser reloaded a page because of a partial change, all the content had to be re-sent, even though only some of the information had changed. This placed additional load on the server and made bandwidth a limiting factor in performance.
+
+<p>In 1996, the iframe tag was introduced by Internet Explorer; like the object element, it can load or fetch content asynchronously. In 1998, the Microsoft Outlook Web Access team developed the concept behind the XMLHttpRequest scripting object.[4] It appeared as XMLHTTP in the second version of the MSXML library,[4][5] which shipped with Internet Explorer 5.0 in March 1999.[6]
+
+<p>The functionality of the Windows XMLHTTP ActiveX control in IE 5 was later implemented by Mozilla Firefox, Safari, Opera, Google Chrome, and other browsers as the XMLHttpRequest JavaScript object.[7] Microsoft adopted the native XMLHttpRequest model as of Internet Explorer 7. The ActiveX version is still supported in Internet Explorer, but not in Microsoft Edge. The utility of these background HTTP requests and asynchronous Web technologies remained fairly obscure until it started appearing in large scale online applications such as Outlook Web Access (2000)[8] and Oddpost (2002).
+
+<p>Google made a wide deployment of standards-compliant, cross browser Ajax with Gmail (2004) and Google Maps (2005).[9] In October 2004 Kayak.com's public beta release was among the first large-scale e-commerce uses of what their developers at that time called "the xml http thing".[10] This increased interest in Ajax among web program developers.
+
+<p>he term AJAX was publicly used on 18 February 2005 by Jesse James Garrett in an article titled Ajax: A New Approach to Web Applications, based on techniques used on Google pages.[1]
+
+<p>On 5 April 2006, the World Wide Web Consortium (W3C) released the first draft specification for the XMLHttpRequest object in an attempt to create an official Web standard.[11] The latest draft of the XMLHttpRequest object was published on 6 October 2016,[12] and the XMLHttpRequest specification is now a living standard
+	</body>
+
+
+</html>

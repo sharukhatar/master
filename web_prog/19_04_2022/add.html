@@ -1,0 +1,31 @@
+<!--
+-->
+<html>
+    <head>
+        <script>
+            function greet()
+            {
+               let num1= parseInt(document.getElementById("num1").value)
+               let num2= parseInt(document.getElementById("num2").value)
+               //alert("Addition is= " +(num1+num2))
+               //document.getElementById("res").value=(num1+num2)
+               document.getElementById("p1").innerHTML=(num1+num2)
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+         Number1 :<input name="num1" id="num1"><br>
+         <br>
+         Number2 :<input name="num2" id="num2"><br>
+         <br>
+         <!--
+         RESULT :<input name="result" id="res" readonly><br>
+         <br>
+         -->
+         <input type="button" value="Sum" onclick="greet()">
+         <h3>Result :</h3>
+         <p id="p1"></p>
+        </form>    
+    </body>
+</html>

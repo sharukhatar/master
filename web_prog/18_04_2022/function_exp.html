@@ -1,0 +1,42 @@
+<!--Function expression-->
+<html>
+    <head>
+        <script>
+            var a =10;
+            var name="Tushar"
+            var b=20;
+            var c=34/56*80
+
+            function greet()
+            {   
+                document.write("Hello World <br>")
+            }
+            var greet1 = function()
+            {
+                document.write("Hello Sharukh <br>")
+            } 
+            var greet_user = function(name)
+            {
+                document.write("Hello" + name +"<br>")
+            }
+            var add=function(a,b)
+            {
+                return a+b;
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+           greet()
+           greet1()
+           greet_user(name)
+           var s=add(a,b)
+           document.write("Sum is= " +s  +"<br>")
+           document.write(parseInt("123abc")+"<br>")
+           document.write(parseInt("abc123")+"<br>")
+           document.write(parseInt("123abc456")+"<br>")
+           document.write(parseInt("123.33")+"<br>")
+           document.write(parseInt(isFinite("123abc")+"<br>"))
+        </script>
+    </body>
+</html>

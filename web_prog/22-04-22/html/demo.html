@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {   // looping in array
+                    //1 method
+              //$("div p").each()
+
+                     //2 method
+              /*
+                let paras= $("div p")
+                paras.each(function()
+                {
+                    console.log($(this).html())
+                }
+                )
+              */
+                     //3 method
+             /*
+              let paras= $("div p")
+                paras.each(function(index)
+                {
+                    console.log(index,$(this).html())
+                })
+                */
+                      //4 method
+                let paras= $("div p")
+                paras.each(function(index,element)
+                {
+                    console.log(index,$(element).html())
+                })
+            })
+        </script>
+    </head>
+    <body>
+      WELCOME TO JQuery
+
+      <h1>jQuery Enabled</h1>
+      <p class="c1">Paragraph-1</p>
+      <p id="n1">Paragraph-2</p>
+      <p>Paragraph-3</p>
+      <div>
+            <p>First Paragraph</p>
+            <p>Second Paragraph</p>
+            <p>Third Paragraph</p>
+            <p>Fourth Paragraph</p>
+            <p>Fifth Paragraph</p>
+            <p>Sixth Paragraph</p>
+        </div>
+        <h2 class="c1">Header2</h2>
+        <input type="button" id="btn1" value="show" onclick="f1()">
+       <div>
+        <h2 class="c1">Header2</h2>
+        <h2 class="c1">Header2</h2>
+       </div>
+    </body>
+</html>

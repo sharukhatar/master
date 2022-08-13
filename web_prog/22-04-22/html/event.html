@@ -1,0 +1,37 @@
+<!--event handling-->
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function()
+            { 
+                $("#btn1").click(function(){
+                    $("h1").css("background","gold")
+                    alert("Botton click") 
+                })
+            })
+        </script>
+    </head>
+    <body>
+      WELCOME TO JQuery
+
+      <h1>jQuery Enabled</h1>
+      <p class="c1" align="left">Paragraph-1</p>
+      <p id="n1">Paragraph-2</p>
+      <p>Paragraph-3</p>
+      <div>
+            <p align="center" title="t1">First Paragraph</p>
+            <p>Second Paragraph</p>
+            <p>Third Paragraph</p>
+            <p>Fourth Paragraph</p>
+            <p align="right">Fifth Paragraph</p>
+            <p>Sixth Paragraph</p>
+        </div>
+        <h2 class="c1">Header2</h2>
+        <input type="button" id="btn1" value="Change header bg" >
+       <div>
+        <h2 class="c1">Header2</h2>
+        <h2 class="c1">Header2</h2>
+       </div>
+    </body>
+</html>

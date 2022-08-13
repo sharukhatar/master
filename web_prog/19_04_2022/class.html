@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script>
+            class student
+            {
+                //var prn, s_name;
+                constructor(prn_id,std_name)
+                {
+                    this.prn=prn_id;
+                    this.s_name=std_name
+                }
+                display()
+                {
+                    console.log(this.prn, this.s_name)
+                }
+
+            }
+            class Grad_student extends student
+            {
+                constructor (prn,sname,gpa)
+                {
+                    super(prn,sname)
+                    this.gpa=gpa
+                }
+            }
+            let gs1=new Grad_student(1001, "NANCY" ,9.0)
+           gs1.display()
+           console.log(gs1.gpa)
+        </script>
+    </head>
+    <body>
+        <script>
+            /*
+            let s1= new student(101,"nancy");
+            let s2= new student(102,"Riya");
+            let s3= new student(103,"Sharukh");
+            s1.display()
+            s2.display()
+            s3.display()
+            */
+        </script>
+    </body>
+</html>    

@@ -1,0 +1,65 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            /*
+           let person_obj = {pname:"nancy",age:23}
+           document.write("Person name= " +person_obj.pname +"<br>") 
+           document.write("Person age= " +person_obj.age +"<br>") 
+
+           person_obj.pname="sharukh"
+           person_obj.age=23
+           document.write("Person name= " +person_obj.pname +"<br>") 
+           document.write("Person age= " +person_obj.age +"<br>") 
+
+           person_obj.city="Pune"
+           document.write("Person city= " +person_obj.city +"<br>")
+
+           for (prop in person_obj)
+            console.log(prop+ " :" +person_obj[prop])
+            */
+           /*
+           let book=
+           {
+               book_id : 101,
+               bname: "core java",
+               price : 400,
+               author : "kishori",
+               display : function()
+               {
+                console.log(this.book_id,this.price,this.author,this.bname)
+               },
+               increment_price : function(per)
+               {
+                this.price=this.price +(this.price*per/100)
+               }
+           }
+          
+           book.display()
+           book.increment_price(10)
+           book.display()
+           */
+          let person=
+          {
+            p_id : 100,
+            p_name : "NANCY",
+            p_age : 23,
+            vaccination_done : true,
+            hobbies : ["coding","adventure","learning"],
+            address : {city : "Pune",state : "mah"}
+          }
+          console.log(person.p_id)
+          console.log(person.p_name)
+          console.log(person.p_age)
+          console.log(person.vaccination_done)
+          console.log(person.hobbies[1])
+          console.log(person.address.city)
+
+          delete person.p_age
+          console.log(person.p_age)
+
+        </script>
+    </body>
+</html>    

@@ -1,0 +1,29 @@
+<!--const,,,,let----->
+<html>
+
+<head>
+    <script>
+        function f1() {
+            var i = 100
+            function f2() {
+                i = i + 200
+                function f3() {
+                    i = i + 100
+
+                }
+            }
+            document.write(i)
+        }
+
+    </script>
+</head>
+
+<body>
+    <script>
+
+        document.write(f1())
+        document.write(f2())
+    </script>
+</body>
+
+</html>
